@@ -45,6 +45,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="50.5" height="284"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <state key="normal" title="Soft"/>
+                                                        <connections>
+                                                            <action selector="eggHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZNt-Cp-way"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </view>
@@ -60,6 +63,9 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <accessibility key="accessibilityConfiguration" label="Medium Egg Button"/>
                                                         <state key="normal" title="Medium"/>
+                                                        <connections>
+                                                            <action selector="eggHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NKZ-DM-DlN"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </view>
@@ -75,6 +81,9 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <accessibility key="accessibilityConfiguration" label="Hard Egg Button"/>
                                                         <state key="normal" title="Hard"/>
+                                                        <connections>
+                                                            <action selector="eggHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hUI-y7-vf1"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </view>
@@ -107,6 +116,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="Bar" destination="Ukk-NL-hQr" id="f5m-F5-r7N"/>
                         <outlet property="mainTitle" destination="IBX-mH-pNk" id="tzq-uk-fWC"/>
                     </connections>
                 </viewController>
